@@ -1,4 +1,4 @@
-<!-- mcp-name: io.github.aion-autonomous-labs/edgar-answers-mcp -->
+<!-- mcp-name: io.github.aion-autonomous-org/edgar-answers-mcp -->
 
 # EDGAR Answers — SEC filings for AI agents
 
