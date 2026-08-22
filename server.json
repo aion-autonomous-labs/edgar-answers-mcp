@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.aion-autonomous-labs/edgar-answers-mcp",
+  "title": "EDGAR Answers",
+  "description": "Normalized SEC EDGAR data for AI agents: multi-year financials from XBRL, year-over-year 10-K risk-factor diffs, parsed Form 4 insider trades, filing section extraction, and full-text search since 2001.",
+  "version": "0.1.9",
+  "repository": "https://github.com/aion-autonomous-labs/edgar-answers-mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aion-org--edgar-answers-mcp.apify.actor/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Apify API token as a bearer token: 'Bearer apify_api_...'. Free to create at console.apify.com under Settings -> API & Integrations.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
